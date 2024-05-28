@@ -67,4 +67,34 @@ main {
     border-radius: 20px;
 }
 
-/* FOOTER */
+
+/* PHONE */
+
+
+/* HEADER */
+
+@media (max-width: 575px) {
+    main {
+        padding: 2000px 0 1750px 0;
+    }
+}
+
+/* MAIN */
+
+@media (max-width: 575px) {
+    .beer-container ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .beer-container li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        width: 168px;
+        margin-bottom: 100px;
+    }
+}
