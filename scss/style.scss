@@ -44,11 +44,11 @@ header{
             border-radius: 20px;
             margin: 0 10px;
             border: 2px solid rgb(239, 196, 117);
-        }
-        button:hover {
-            background-color: rgb(239, 196, 117);
-            color: black;
-            transition: all 0.5s ease;
+            &:hover {
+                background-color: rgb(239, 196, 117);
+                color: black;
+                transition: all 0.5s ease;
+            }
         }
     }
     .navbar {
@@ -68,12 +68,11 @@ header{
             font-size: 18px;
             padding: 19px 45px;
             cursor: default;
-        }
-        
-        .nav-link:hover {
-            background-color: rgb(239, 196, 117);
-            color: black;
-            transition: all 0.5s ease;
+            &:hover {
+                background-color: rgb(239, 196, 117);
+                color: black;
+                transition: all 0.5s ease;
+            }
         }
         button {
             background-color: rgb(239, 196, 117);
@@ -131,11 +130,10 @@ main {
             font-size: 15px;
             border: 2px solid rgb(239, 211, 160);
             border-radius: 8px;
-        }
-        
-        .see-more-btn:hover {
-            background-color: rgb(239, 211, 160);
-            transition: all 0.5s ease;
+            &:hover {
+                background-color: rgb(239, 211, 160);
+                transition: all 0.5s ease;
+            }
         }
     }
     .box-mod {
@@ -194,9 +192,9 @@ footer {
         }
         a {
             color: rgb(239, 211, 160);
-        }
-        a:hover {
-            text-decoration: underline;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }
